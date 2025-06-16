@@ -1,0 +1,13 @@
+// Plugin header
+/*
+Plugin Name: AvoNoNags – WooCommerce Notice Blocker
+Description: Removes WooCommerce admin notices and blocks them from coming back. Peaceful dashboard, always.
+Version: 1.0.0
+Author: Joseph Brzezowski
+*/
+
+add_action('admin_init', function() {
+    // Disable all WooCommerce admin notices
+    remove_all_actions('admin_notices');
+    remove_all_actions('all_admin_notices');
+});
