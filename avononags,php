@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: AvoNoNags – WooCommerce Notice Blocker
- * Plugin URI: https://avocadoweb.net/plugins/avononags
+ * Plugin URI: https://github.com/avocadowebservices/AvoNoNags
  * Description: Removes all WooCommerce admin notices and keeps your dashboard clean and quiet.
  * Version: 1.0.0
  * Author: Joseph Brzezowski
